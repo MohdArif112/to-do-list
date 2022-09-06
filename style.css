@@ -1,0 +1,51 @@
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(165, 165, 243);
+}
+
+h1 {
+    
+    color: white;
+}
+.main-conatiner {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #393f4d;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-left: -120px;
+    
+}
+
+.conatiner{
+    width: 400px;
+    
+}
+input {
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+button {
+    height: 50px;
+    width: 70px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.todos-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.line-through {
+    text-decoration: line-through solid rgb(0, 0, 0);
+}
